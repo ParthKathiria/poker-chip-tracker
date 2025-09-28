@@ -3,10 +3,12 @@ package com.track.pokerchip.poker_backend.entity;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
+// This file will contain all the player related info.
+
 @Entity
 @Table(name = "players")
 public class Player {
-    // Player Status Info.
+    // Player Status Info
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
